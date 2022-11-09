@@ -1,0 +1,17 @@
+{
+    "unsigned Int": {
+        "prefix": "uint",
+        "body": [
+            "unsigned int"
+        ]
+    },
+    "while !empty": {
+        "prefix": "whilee",
+        "body": [
+            "while(!${1:cont}.empty())",
+            "{",
+            "$0",
+            "}"
+        ]
+    }
+}
